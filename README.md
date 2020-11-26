@@ -40,8 +40,12 @@ The script has four optional parameters:
 
 Use this script to verify extended milestone 3.2.
 
+To end the script, just press Ctrl-c
+
 ## Test 3: Transmit byte stream, Receive byte stream
 
 Test 3 is essentially the same as Test 2, except that all bytes in the text file are sent first before listening for transmissions from the FPGA. The script is `uart_multecho.py`. Invocation and options are similar to Test 2.
 
 Use this script to verify extended milestone 3.3.
+
+To end the script, just press Ctrl-c
