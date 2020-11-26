@@ -4,6 +4,10 @@ This repository contains test scripts for CoE 111 lab.
 
 The following scripts can be used to verify the functionality of your design. It uses a serial interface through a USB device. All scripts should be run using Python 3. This can be invoked in the lab workstations using the python3.6 command.
 
+These scripts are meant to be run on the Microlab workstations for verification. Each workstation has already been set-up with the necessary FPGA pins connected to a UART to USB interface in the host workstation.
+
+UART to USB interface is found in /dev/ttyUSB0 by default. If you are having trouble connecting to the device (e.g. /dev/ttyUSB0 device not found), feel free to contact me.
+
 ## Test 1: Listen for UART transmissions
 
 Test 1 loops serial reads from the USB serial terminal. The script is `uart_listen.py`. Invoke the script using a terminal:
